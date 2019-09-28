@@ -1,0 +1,13 @@
+logging:
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n'
+    file: '%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n'
+  register-shutdown-hook: true
+
+spring:
+  application:
+    name: customer
+  cloud:
+    config:
+      uri: http://localhost:8081
+
