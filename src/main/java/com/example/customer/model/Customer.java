@@ -1,4 +1,4 @@
-package com.example.customer;
+package com.example.customer.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
